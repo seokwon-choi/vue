@@ -1,6 +1,8 @@
 <template>
 <div>
+  <h1>CICD</h1>
   <button @click="loadData">load</button>
+  <hr>
   <ul>
     <li v-for="(name, idx) in names" :key="idx">{{name}}</li>
   </ul>
