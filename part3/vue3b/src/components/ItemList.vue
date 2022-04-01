@@ -1,6 +1,7 @@
 <template>
 <div>
   <h1>CICD</h1>
+  <h1>나는 성공</h1>
   <button @click="loadData">load</button>
   <hr>
   <ul>
